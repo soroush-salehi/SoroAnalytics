@@ -1,22 +1,24 @@
 # SoroAnalytics
 
-Explore CSV data without uploading it.
+A lightweight CSV exploration prototype that runs in the browser.
 
-## Features
-- CSV import with quoted-field handling
-- Data preview
-- Basic row and column counts
-- Simple chart for a selected numeric column
+## Current features
+- Import CSV files.
+- Parse quoted fields and escaped quotes.
+- Preview tabular data.
+- Identify numeric columns.
+- Filter rows by text.
+- Plot a selected numeric column.
+- Export the filtered rows as CSV.
+
+## Stack
+HTML, CSS, Vanilla JavaScript, Canvas API.
 
 ## Run
-Open `index.html` and import a CSV file.
+Open `index.html` through a local static web server.
 
-## Scope
-Processing is local in the browser. The prototype targets common CSV files; very large files and complex spreadsheet formats are outside its scope.
+## Important limitations
+This is a lightweight explorer, not a full analytics platform. Large datasets may need pagination or streaming parsing.
 
-## Structure
-- `index.html` — import, preview and chart interface
-- `README.md` — project documentation
-
-## License
-No license selected. All rights reserved until a license is added.
+## Roadmap
+Sorting, column summaries, chart types, date handling, and report export.
