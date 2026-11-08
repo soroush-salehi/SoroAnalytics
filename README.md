@@ -1,29 +1,22 @@
 # SoroAnalytics
 
-> A compact data exploration dashboard.
+Explore CSV data without uploading it.
 
-A small analytics workspace for importing CSV files, summarizing columns, and visualizing datasets with clear, reproducible calculations.
+## Features
+- CSV import with quoted-field handling
+- Data preview
+- Basic row and column counts
+- Simple chart for a selected numeric column
 
-## Technology
+## Run
+Open `index.html` and import a CSV file.
 
-HTML, CSS, Vanilla JavaScript; optional Python analysis tools.
+## Scope
+Processing is local in the browser. The prototype targets common CSV files; very large files and complex spreadsheet formats are outside its scope.
 
-## Roadmap
-
-- [ ] CSV import
-- [ ] Data preview
-- [ ] Summary statistics
-- [ ] Charts
-- [ ] Export report
-
-## Project status
-
-Early development. Features are added incrementally and documented as they become available.
-
-## Contributing
-
-Issues and focused pull requests are welcome. Please describe the problem, expected behavior, and steps to reproduce bugs.
+## Structure
+- `index.html` — import, preview and chart interface
+- `README.md` — project documentation
 
 ## License
-
-No license has been selected yet. Until a license is added, all rights are reserved by the copyright holder.
+No license selected. All rights reserved until a license is added.
